@@ -1,0 +1,17 @@
+{
+  "name": "school",
+  "description": "school example",
+  "main": "",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "app-route": "PolymerElements/app-route#^0.9.3"
+  }
+}

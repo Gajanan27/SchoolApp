@@ -1,0 +1,58 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/polymer-simple-slider/simple-slider.html">
+
+<link rel="import" href="/bower_components/paper-input/paper-input.html"/>
+<link rel="import" href="/bower_components/iron-input/iron-input.html">
+<link rel="import" href="/bower_components/paper-button/paper-button.html">
+<link rel="import" href="/bower_components/paper-button/paper-button.html"/>
+<link rel="import" href="/bower_components/paper-styles/shadow.html"/>
+
+<dom-module id="top-stories">
+<style>
+</style>
+	<script>
+        HTMLImports.whenReady(function () {
+		(function() {
+	         Polymer({
+                is: "top-stories"
+                });
+		})();
+            
+            });
+	</script>
+    
+    <template>
+      <div style="float:left;margin-bottom: 10px;">
+          <div style="float:left;width:750px;margin-left:100px;background-color: #fff;padding: 10px 10px 10px 10px;">
+             <simple-slider style="height:400px;">
+                <img src="data/images/1.jpg"/>
+                <img src="data/images/2.jpg"/>
+                <img src="data/images/3.jpg"/>
+                <img src="data/images/4.jpg"/>
+                <img src="data/images/5.jpg"/>
+             </simple-slider>
+          </div>
+          <div class="card" style="float:right;background-color: #fff;width: 350px;margin-left:10px;">
+             <div id="unauthenticated">
+                <h4>BETWEENUS PORTAL</h4>
+                <paper-input-container>
+                   <label>Username</label>
+                   <input is="iron-input" id="username" type="text" bind-value="{{formData.username}}">
+                </paper-input-container>
+                <paper-input-container>
+                   <label>Password</label>
+                   <input is="iron-input" id="password" type="password" bind-value="{{formData.password}}">
+                </paper-input-container>
+                <div class="wrapper-btns">
+                   <paper-button raised class="primary" on-tap="postLogin">Log In</paper-button>
+                   <paper-button class="link" on-tap="postRegister">Sign Up</paper-button>
+                </div>
+             </div>
+          </div>
+       </div>   
+</template>
+</dom-module>
+
+
+
+

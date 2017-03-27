@@ -1,0 +1,44 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/paper-input/paper-input.html">
+<link rel="import" href="/bower_components/paper-styles/paper-styles.html">
+<link rel="import" href="/bower_components/paper-dropdown-input/paper-dropdown-input.html">
+<link rel="import" href="/bower_components/paper-date-picker/paper-date-picker.html">
+<link rel="import" href="/bower_components/paper-date-picker-item/paper-date-picker-item.html">
+<link rel="import" href="/bower_components/paper-button/paper-button.html">
+<link rel="import" href="/bower_components/paper-material/paper-material.html">
+<link rel="import" href="/bower_components/paper-behaviours/paper-behaviours.html">
+<link rel="import" href="/bower_components/paper-styles/shadow.html"/>
+
+<dom-module id="admission-form">
+ <template>
+ <style type="text/css">
+ 	paper-dropdown-input{width: 75%;text-align: center;}
+ 	paper-input{margin: 0px 45px;text-align: center;}
+ 	paper-date-picker-item{margin: 0px 20px;text-align: center;}
+ 	paper-icon-item-0{margin-left: -60px;}
+ 	paper-button {
+         width: 120px;
+    background-color: #004883;
+    margin: 10px 8px;
+    text-transform: none;
+    color: #fff;
+         }
+ </style>
+ <div style="width: 420px;background-color: #fff;align-content: center;margin-left: 100px;">
+ <h2 style="padding-top: 20px;">Admission</h2>
+ <paper-dropdown-input label="Select Class" items='["NURSARY","JR KG","SR KG"]'></paper-dropdown-input>
+ <paper-input label="Name"></paper-input>
+ <paper-input label="Address"></paper-input>
+ <paper-date-picker-item label="Date of Birth"></paper-date-picker-item>
+ <paper-button  class="primary x-scope paper-button-0">Submit</paper-button>
+  <paper-button   class="primary x-scope paper-button-0">Reset</paper-button>
+
+
+ </div>
+ </template>
+ <script>
+	Polymer({
+      is: 'admission-form'
+    });
+</script>
+ </dom-module>

@@ -1,0 +1,40 @@
+{  
+   "templates":[  
+      {  
+         "name":"GETTING STARTED",
+         "thumbnail":"data/images/logo_britishcouncil.jpg",
+         "demoUrl":"templates/getting-started/",
+         "sourceUrl":"https://github.com/PolymerElements/app-layout/tree/master/templates/getting-started"
+      },
+      {  
+         "name":"ZUPERKÜLBLOG",
+         "thumbnail":"data/images/logo_cie.jpg",
+         "demoUrl":"templates/publishing/",
+         "sourceUrl":"https://github.com/PolymerElements/app-layout/tree/master/templates/publishing"
+      },
+      {  
+         "name":"ZUPERKÜLBLOG",
+         "thumbnail":"data/images/logo_cis.jpg",
+         "demoUrl":"templates/publishing/",
+         "sourceUrl":"https://github.com/PolymerElements/app-layout/tree/master/templates/publishing"
+      }
+   ],
+   "info":[  
+      {  
+         "title":"IBPYP",
+         "info":"International Baccalaureate Primary Years Programme offered at our International School ..."
+      },
+      {  
+         "title":"IWC",
+         "info":"International World College (PWC) is the latest and prestigious venture of Podar Education Trust, which has made quality education its core"
+      },
+      {  
+         "title":"B.B.A (UK)",
+         "info":"International School along with Edexcel is slated to offer a wide variety of Under Graduation programmes"
+      },
+      {  
+         "title":"CIDTL",
+         "info":"Cambridge International Diploma in Teaching and Learning"
+      }
+   ]
+}
